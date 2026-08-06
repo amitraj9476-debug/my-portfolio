@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal profile and portfolio." />
+  <title>Amit Raj — Portfolio</title>
+  <link rel="icon" href="assets/logo.jpg" type="image/jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__logo" href="#top">
+        <img src="assets/logo.jpg" alt="" width="36" height="36" />
+        Amit Raj
+      </a>
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Hello, I'm</p>
+        <h1 class="hero__title">Amit Raj</h1>
+        <p class="hero__subtitle">Designer &amp; developer building thoughtful digital experiences.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#projects">View work</a>
+          <a class="btn btn--ghost" href="assets/resume.pdf" download>Download resume</a>
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="avatar">
+          <img src="assets/profile.jpg" alt="Portrait of Amit Raj" />
+          <span class="avatar__fallback" hidden aria-hidden="true">AR</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section__inner">
+        <h2 class="section__title">About</h2>
+        <div class="about">
+          <p>
+            I am Amit Raj, an M.Sc. Data Science student with a strong interest in Machine Learning, Geospatial Data Science, Artificial Intelligence, and Data Analytics. I enjoy transforming raw data into meaningful insights and developing data-driven solutions to real-world problems. My experience includes data preprocessing, exploratory data analysis, predictive modeling, and interactive data visualization using Python and modern data science tools. I am continuously learning new technologies and seeking opportunities to contribute to impactful, data-driven projects.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new tools, reading, or chasing good coffee.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="skills">
+      <div class="section__inner">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills">
+          <li class="skill-card">
+            <h3>Machine Learning</h3>
+            <p>Supervised, Unsupervised, and Reinforcement Learning</p>
+          </li>
+          <li class="skill-card">
+            <h3>Deep Learning</h3>
+            <p>Neural Networks, Convolutional Neural Networks, Recurrent Neural Networks, and Transformers</p>
+          </li>
+          <li class="skill-card">
+            <h3>Natural Language Processing</h3>
+            <p>Text Classification, Named Entity Recognition, Sentiment Analysis, and Topic Modeling</p>
+          </li>
+          <li class="skill-card">
+            <h3>Extra Curricular Activities</h3>
+            <p>Database Management System by NPTEL</p>
+          </li>
+          <li class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, R, Python, SQL, Tableau, Power BI, and Excel</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section__inner">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects">
+          <article class="project-card">
+            <div class="project-card__image">
+              <img src="assets/project1.png" alt="Screenshot of Project One" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta">2025</div>
+              <h3>Project One</h3>
+              <p>A brief description of what you built, the problem it solves, and the tech you used.</p>
+              <a class="project-card__link" href="#">View project →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card__image">
+              <img src="assets/project2.png" alt="Screenshot of Project Two" />
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__meta">2024</div>
+              <h3>Project Two</h3>
+              <p>Another highlight from your portfolio. Keep it concise and outcome-focused.</p>
+              <a class="project-card__link" href="#">View project →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="certifications">
+      <div class="section__inner">
+        <h2 class="section__title">Certifications</h2>
+        <ul class="certifications">
+          <li class="certification-card">
+            By Indian Institute of Technology, Guwahati
+            <a><img src="assets/certificate.jpg" alt="" width="500" height="300" href="assets/certificate.jpg </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section section--alt" id="contact">
+      <div class="section__inner contact">
+        <h2 class="section__title">Contact</h2>
+        <p class="contact__lead">Open to collaborations, freelance work, and interesting conversations.</p>
+        <a class="contact__email" href="mailto:you@example.com">amitraj9476@gmail.com</a>
+        <ul class="social">
+          <li><a href="https://github.com/amitraj9476-debug" aria-label="GitHub">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/%C3%A2mit-raj-4148b836b/" aria-label="LinkedIn">LinkedIn</a></li>
+          <li><a href="https://x.com/amitraj_20" aria-label="Twitter">Twitter</a></li>
+          <li><a href="https://www.kaggle.com/mitraj" aria-label="Kaggle">Kaggle</a></li>
+          <li><a href="https://www.youtube.com/@AmitRaj-ro2xg" aria-label="YouTube">YouTube</a></li>
+          <li><a href="https://www.instagram.com/unique______20/ aria-label="Instagram">Instagram</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Amit Raj. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
