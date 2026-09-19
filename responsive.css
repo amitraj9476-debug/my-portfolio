@@ -73,3 +73,13 @@
     transition: none !important;
   }
 }
+@media (max-width: 768px) {
+  .certifications {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certification-card {
+    width: 100%;
+  }
+}
