@@ -333,6 +333,26 @@ img {
   font-weight: 500;
   color: var(--accent);
 }
+.certifications {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.certification-card {
+  text-align: center;
+  flex: 1;
+}
+
+.certification-card img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
 
 .contact {
   text-align: center;
